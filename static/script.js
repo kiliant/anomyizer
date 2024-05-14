@@ -23,6 +23,7 @@ document.getElementById('anonymizeForm').addEventListener('submit', function(e) 
 
 document.getElementById('deleteButton').addEventListener('click', function() {
     document.getElementById('result').innerHTML = '';
+    document.getElementById('textInput').value = '';
     document.getElementById('result').style.display = 'none';
     document.getElementById('deleteButton').style.display = 'none';
 });
